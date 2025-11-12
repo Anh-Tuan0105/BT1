@@ -75,6 +75,7 @@ namespace BT1
     {
         static void Main(string[] args) 
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("=== GIAI PHUONG TRINH BAC 2: a*x^2 + b*x + c = 0 ===");
             Console.Write("Nhap a: ");
             double a = double.Parse(Console.ReadLine()!);
