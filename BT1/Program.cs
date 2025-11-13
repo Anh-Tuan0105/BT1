@@ -46,7 +46,8 @@ namespace BT1
             if (a == 0)
             {
                 Console.WriteLine("Phuong trinh tro thanh bac 1: ");
-                base.Giai();
+                PTB1 ptb1 = new PTB1(b, c);
+                ptb1.Giai();
                 return;
             }
 
